@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with Toggle and Social Links</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid header">
+            <!-- Company Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo2021.jpg" class="header-image img-responsive" style="max-width: 50%;" />
+            </a>
+
+            <!-- Toggle Button for Small Screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Navbar -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Own A Franchise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Branches</a>
+
+                    </li>
+                </ul>
+
+                <!-- Social Media Links (Hidden on larger screens) -->
+                <div class="social-media-links">
+                    <a href="#" class="me-3">Link 1
+                    </a>
+                    <a href="#" class="me-3">
+                        Link 1
+                    </a>
+                    <a href="#">
+                        Link 1
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Main Banner -->
+    <section class="main-banner" id="main-banner">
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="row">
+                    <div class="d-flex flex-row-reverse">
+                        <img src="./assets/images/clean-slider-icon.png" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center p-5"><img src="./assets/images/clean-slider-icon2.png" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center ">
+                        <h1 class="text-center">Professional Deep Cleaning<br>Disinfection<br>Pest Control Services</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center ">
+                        <p class="text-center pt-4" style="color: rgb(117, 126, 135);">A complete hygiene solution for
+                            your home, office and <br> vehicles
+                        <p>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="main-banner-button p-2 call-btn" type="button">Call us : +91-7012920896</button>
+                </div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <div class="main-banner-image">
+                    <div class="green-box">
+                        <div class="row mt-2">
+                            <img src="./assets/images/clean-slider-icon3.png" class="img-fluid main-banner-leaf mb-2" />
+                            <p>BIO & ECO</p>
+                            <p>We Care about the<br>environment and use only<br>natural products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <!-- About Us -->
+    <section class="about-us" id="about-us">
+        <div class="row pt-5">
+            <div class="d-flex justify-content-center ">
+                <h5 class="text-center pt-5" style="color: #f37b17;">About Us</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center pt-3">
+                <h1 class="text-center">J-Guard Professional<br>Cleaning Services </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="text-center">We have been effectivly building trust and<br>value since</h4>
+                <h1 style="font-size: 100px;color:#f37b17" class="text-center">2017</h1>
+                <div class="row mx-auto">
+                    <div class="col-md-4 mx-auto">
+                        <button type="button" class="d-flex justify-content-center m-4 p-3 about-btn"> about
+                            us</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6  ps-5">
+                        <div class="row">
+                            <img src="./assets/images/home-brush.png" class="about-us-image">
+                        </div>
+                        <div class="row">
+                            <h3>15000+<br>Happy customers</h3>
+                        </div>
+                        <div class="row">
+                            <p style="color: rgb(117, 126, 135);">J-GUARD is the only<br>professional cleaning
+                                company<br>which has its branches
+                                all<br>across Kerala and now in Tamil<br>Nadu.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6   ps-5">
+                        <div class="row">
+                            <img src="./assets/images/interactions.png" class="about-us-image">
+                        </div>
+                        <div class="row">
+                            <h3>15000+<br>Happy customers</h3>
+                        </div>
+                        <div class="row">
+                            <p style="color: rgb(117, 126, 135);">J-GUARD is the only<br>professional cleaning
+                                company<br>which has its branches
+                                all<br>across Kerala and now in Tamil<br>Nadu.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Services -->
+    <section class="our-service" id="our-service">
+        <div class="row">
+            <div class="d-flex justify-content-center ">
+                <h1 class="text-center pt-5" style="color: #f37b17;">Our Services</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center ">
+                <h2 class="text-center m-5">A Complete Hygiene Solution<br>For Your Home, Office And Vehicles.</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row our-service-grid">
+                <div class="col-md pt-2">
+                    <img src="./assets/images/house-1-1.png" />
+                    <h4>Apartment Deep<br>Cleaning Services</h4>
+                    <p>Give us a call to know more about<br>our apartment cleaning services.</p>
+                </div>
+                <div class="col-md pt-2"><img src="./assets/images/workplace.png" />
+                    <h4>Office Deep Cleaning<br>Services</h4>
+                    <p>Stack of irregular files and untidy<br>floors no more of a headache when<br>we are around.</p>
+                </div>
+                <div class="col-md pt-2"><img src="./assets/images/construction-site-1.png" />
+                    <h4>Post Construction Deep<br>Cleaning Services</h4>
+                    <p>Dream house needs at most care,<br>and we care for your needs.</p>
+                </div>
+                <div class="col-md pt-2"><img src="./assets/images/glass-cleaning.png" />
+                    <h4>Carpet Shampooing<br>Services</h4>
+                    <p>Hard time with cleaning the rugged<br>carpets? Worry no more we are the<br>right tool for you.
+                    </p>
+                </div>
+
+            </div>
+            <div class="row our-service-grid">
+                <div class="col-md pt-2">
+                    <img src="./assets/images/house-1.png" />
+                    <h4>Residential Deep<br>Cleaning Services</h4>
+                    <p>Want to save your valuable time and<br>money? we can be assistance to all<br>your residential
+                        cleaning<br>requirements.</p>
+                </div>
+                <div class="col-md pt-2"><img src="./assets/images/sofa-1.png" />
+                    <h4>Sofa Shampooing<br>Services</h4>
+                    <p>Bring back the glaze and shining<br>from the first day you buy your<br>sofas? We are here for
+                        you.</p>
+                </div>
+                <div class="col-md pt-2"><img src="./assets/images/clean-window.png" />
+                    <h4>Pest Control Services</h4>
+                    <p>Worried about the pests? Grab your<br>phone and give a call and watch the<br>rest.</p>
+                </div>
+                <div class="col-md pt-2"><img src="./assets/images/reject.png" />
+                    <h4>Disinfection Services</h4>
+                    <p>Disinfecting and sanitizing your<br>living space is the ultimate<br>precaution in times likes
+                        these.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Get in touch -->
+    <section id="get-in-touch" class="get-in-touch">
+        <div class="container m-5 p-5">
+            <div class="row p-5">
+                <div class="col-md-6 get-in-touch-grid-left">
+                    <div class="row">
+                        <h1 class="p-5">
+                            Get In Touch
+                        </h1>
+                        <div class="row  align-items-center p-0 m-0">
+                            <div class="col-md-6">
+                                <p class="ps-5">
+                                    J-Guard Pvt, Ltd.<br>1/660, 2nd floor, KK Tower,<br>Kappattikavu, Eroor
+                                    North,<br>Eroor,<br>Kochi,
+                                    Kerala-682306<br>Email:jguard.customercare@gmail.com<br>Tel:
+                                    7012920896
+                                </p>
+                            </div>
+                            <div class="col-md-6 text-md-end p-0 m-0">
+                                <img src="./assets/images/clean-home-icon-bg.png" class="" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 form">
+                    <div class="row">
+                        <h1 class="p-5">
+                            Get a quote
+                        </h1>
+                        <div class="row p-0 m-0">
+                            <div class="col-md-6 text-md-start p-0 m-0">
+                                <img src="./assets/images/clean-home-icon-bg-2.png" />
+                            </div>
+                            <div class="col-md-6">
+                                <form class="form-group ">
+                                    <div class="form-group">
+                                        <div class="col-md-10 col-sm-10 col-8">
+                                            <input type="text" class="form-control form-element" id="name"
+                                                aria-describedby="name" placeholder="Name">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-8">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control form-element" id="email"
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-8">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-element" id="name"
+                                                aria-describedby="phone" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-8">
+                                        <div class="form-group">
+                                            <select class="form-control form-element">
+                                                <option>Select Location</option>
+                                                <option>Kochi</option>
+                                                <option>Kozhikode</option>
+                                                <option>Kollam</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-8">
+                                        <div class="form-group">
+                                            <textarea class="form-control form-element" aria-describedby="message"
+                                                placeholder="Your message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-8">
+                                        <button type="submit" class="submit-button">Send</button>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="scetions" class="sections">
+        <div class="row">
+            <div class="d-flex justify-content-center ">
+                <h2 class="text-center">Testimonial</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center ">
+                <h2 class="text-center p-5">What our customers say</h2>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+                    <!-- Bootstrap Carousel -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/images/renjit.jpeg" class="avatar" />
+                                    </div>
+                                    <em class="text-center m-5">
+                                        "The best thing about them is punctuality - in scheduling the service and
+                                        keeping the promise. Very professional in their
+                                        approach and got the work done in right quality."
+                                    </em>
+                                    <h3 class="text-center">Renjith Nadh</h3>
+                                    <p class="text-center" style="color: rgb(117, 126, 135);">Shadowine Media</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/images/jose kurian.jpeg" class="avatar" />
+                                    </div>
+                                    <em class="text-center m-5">
+                                        "A fantastic team! Great customer support from beginning to end of the process.
+                                        The service team is very professional and
+                                        go the extra mile at every stage. I would recommend them unreservedly."
+                                    </em>
+                                    <h3 class="text-center">Jose Kurian</h3>
+                                    <p class="text-center" style="color: rgb(117, 126, 135);">CAM Windows</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/images/Althas.jpeg" class="avatar" />
+                                    </div>
+                                    <em class="text-center m-5">
+                                        "A fantastic team! Great customer support from beginning to end of the process.
+                                        The service team is very professional and
+                                        go the extra mile at every stage. I would recommend them unreservedly."
+                                    </em>
+                                    <h3 class="text-center">Althas M A</h3>
+                                    <p class="text-center" style="color: rgb(117, 126, 135);">Magic Stores</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto">
+            <div class="row m-0">
+                <div class="col-md-3 mb-4 p-0">
+                    <img src="./assets/images/clean-slider-slide-1.jpg" class="img-fluid" />
+                </div>
+                <div class="col-md-3 mt-5 p-0">
+                    <img src="./assets/images/clean-slider-slide-1.jpg" class="img-fluid" />
+                </div>
+                <div class="col-md-6 mb-5" style="background-color: #edf3f8;">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <img src="./assets/images/message.png">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Drop Your Queries At .</h2>
+                            <h2 class="m-2" style="color:#f37b17">+91-7012920896</h2>
+                            <p style="color: rgb(117, 126, 135);">Sunday - Saturday, Available 24x7</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="footer">
+        <div class="row">
+            <img src="./assets/images/logo-wo-bg.png" class="mx-auto w-50 p-3">
+        </div>
+        <div class="row">
+            <div class="col-md-5 mx-auto">
+                <p>
+                    J-GUARD PRIVATE LIMITED Professional Housekeeping Service Company<br>provides all sorts of cleaning
+                    service in and around Kerala and Tamil Nadu.
+                </p>
+            </div>
+        </div>
+        <div class="row mx-auto">
+            <div class="col-md-3 social mx-auto mb-5">
+                <img src="./assets/images/facebook f.png" />
+                <img src="./assets/images/insta logo.png">
+                <img src="./assets/images/google logo.png">
+                <img src="./assets/images/youtube.png">
+                <img src="./assets/images/twitter.png">
+                <img src="./assets/images/linkedin (1).png">
+                <img src="./assets/images/pintrest (1).png">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-5">
+                <p class="text-center">© 2021 J-guard. All Rights Reserved.
+                </p>
+            </div>
+            <div class="col-md-7 links">
+                <a href="" class="text-center">Home</a>
+                <a href="" class="text-center">About Us</a>
+                <a href="" class="text-center">Service</a>
+                <a href="" class="text-center">Own a Franchise</a>
+                <a href="" class="text-center">Blog</a>
+                <a href="" class="text-center">Gallery</a>
+                <a href="" class="text-center">Contact Us</a>
+                <a href="" class="text-center">Branches</a>
+            </div>
+        </div>
+    </section>
+    <a href="https://web.whatsapp.com/" target="_blank" class="btn btn-primary floating-btn" role="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+            viewBox="0 0 16 16">
+            <path
+                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+        </svg><span class="ms-2">Get a free quote</span>
+    </a>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
